@@ -1,5 +1,5 @@
+# imports
 import datetime
-
 import pyautogui as autog
 import virtualbox
 import pyttsx3
@@ -54,7 +54,7 @@ def takeCommand():
         return query
 
 
-wishMe()
+wishMe() # function on line `21`
 
 
 # nested if-else begins here
